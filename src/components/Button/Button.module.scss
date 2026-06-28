@@ -1,0 +1,46 @@
+.button {
+  align-items: center;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  display: inline-flex;
+  font-weight: 800;
+  gap: 0.55rem;
+  justify-content: center;
+  line-height: 1.1;
+  min-height: 2.85rem;
+  padding: 0.85rem 1.15rem;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+
+  svg {
+    flex: 0 0 auto;
+  }
+}
+
+.primary {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  box-shadow: var(--shadow-blue);
+  color: white;
+}
+
+.secondary {
+  background: var(--surface-glass);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+}
+
+.ghost {
+  background: transparent;
+  color: var(--text-primary);
+}
+
+.danger {
+  background: linear-gradient(135deg, #ef4444, var(--color-accent));
+  color: white;
+}

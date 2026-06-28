@@ -1,0 +1,24 @@
+.card {
+  background: var(--surface-glass);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  padding: 1rem;
+
+  span {
+    color: var(--color-secondary);
+    font-size: 1.35rem;
+  }
+
+  strong {
+    color: var(--text-primary);
+    display: block;
+    font-size: clamp(1.45rem, 4vw, 2rem);
+    margin-top: 0.45rem;
+  }
+
+  small {
+    color: var(--text-muted);
+    font-weight: 800;
+  }
+}

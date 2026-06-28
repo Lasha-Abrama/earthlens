@@ -1,0 +1,26 @@
+.empty {
+  align-items: center;
+  background: var(--surface-glass);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  max-width: 42rem;
+  padding: 3rem 1.4rem;
+  text-align: center;
+
+  svg {
+    color: var(--color-secondary);
+    font-size: 3rem;
+  }
+
+  h2 {
+    margin: 1rem 0 0;
+  }
+
+  p {
+    color: var(--text-secondary);
+    max-width: 32rem;
+  }
+}

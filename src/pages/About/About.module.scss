@@ -1,0 +1,106 @@
+.hero {
+  max-width: 62rem;
+
+  h1 {
+    font-size: clamp(2.8rem, 8vw, 5.6rem);
+    line-height: 0.95;
+    margin: 0.6rem 0 1rem;
+  }
+
+  p {
+    color: var(--text-secondary);
+    font-size: 1.15rem;
+    line-height: 1.75;
+  }
+}
+
+.cards {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 2rem;
+
+  article {
+    background: var(--surface-glass);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-soft);
+    padding: 1.25rem;
+  }
+
+  svg {
+    color: var(--color-secondary);
+    font-size: 2rem;
+  }
+
+  p {
+    color: var(--text-secondary);
+  }
+}
+
+.timeline {
+  margin-top: 5rem;
+
+  article {
+    align-items: center;
+    border-left: 2px solid var(--color-secondary);
+    display: flex;
+    gap: 1rem;
+    padding: 0 0 1.25rem 1rem;
+  }
+
+  strong {
+    align-items: center;
+    background: var(--color-secondary);
+    border-radius: 999px;
+    color: white;
+    display: inline-flex;
+    height: 2.2rem;
+    justify-content: center;
+    width: 2.2rem;
+  }
+
+  p {
+    color: var(--text-secondary);
+    font-weight: 800;
+  }
+}
+
+.developer {
+  align-items: center;
+  background: var(--surface-glass);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: auto 1fr auto;
+  margin-top: 3rem;
+  padding: 1.25rem;
+
+  > svg {
+    color: var(--color-primary);
+    font-size: 3rem;
+  }
+
+  h2,
+  p {
+    margin: 0;
+  }
+
+  p {
+    color: var(--text-secondary);
+    margin-top: 0.35rem;
+  }
+
+  > div:last-child {
+    display: flex;
+    gap: 0.7rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .cards,
+  .developer {
+    grid-template-columns: 1fr;
+  }
+}

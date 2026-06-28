@@ -1,0 +1,264 @@
+{
+  "nav": {
+    "home": "Home",
+    "explore": "Explore",
+    "compare": "Compare",
+    "favorites": "Favorites",
+    "wishlist": "Wishlist",
+    "about": "About"
+  },
+  "hero": {
+    "eyebrow": "Interactive world intelligence",
+    "title": "Discover the World Like Never Before.",
+    "copy": "Explore every country through data, culture, weather, maps, stories, and a personal travel wishlist.",
+    "cta": "Start exploring",
+    "secondary": "Compare nations"
+  },
+  "common": {
+    "search": "Search countries",
+    "retry": "Retry",
+    "favorites": "Favorites",
+    "wishlist": "Wishlist",
+    "population": "Population",
+    "area": "Area",
+    "capital": "Capital",
+    "region": "Region",
+    "languages": "Languages",
+    "currencies": "Currencies",
+    "timezone": "Timezone",
+    "continent": "Continent",
+    "unknown": "Unknown",
+    "all": "All",
+    "remove": "Remove",
+    "cancel": "Cancel",
+    "details": "Details",
+    "quickView": "Quick view",
+    "googleMaps": "Google Maps",
+    "people": "people",
+    "close": "Close",
+    "backToTop": "Back to top",
+    "toggleTheme": "Toggle theme",
+    "switchLanguage": "Switch language",
+    "menu": "Menu",
+    "contact": "Contact",
+    "notAvailable": "N/A"
+  },
+  "explore": {
+    "eyebrow": "Explore countries",
+    "title": "Filter the entire planet in seconds.",
+    "copy": "Search by country, capital, continent, language, currency, or population scale.",
+    "searchPlaceholder": "Search countries or capitals",
+    "sort": "Sort",
+    "random": "Random",
+    "noData": "Country data is getting ready",
+    "refresh": "Refresh atlas",
+    "empty": "No countries found",
+    "emptyCopy": "Try a different combination of filters.",
+    "matching": "matching countries",
+    "loadMore": "Load more"
+  },
+  "compare": {
+    "eyebrow": "Compare countries",
+    "title": "Two nations, one clean view.",
+    "copy": "Choose any two countries and compare their key profile data side by side.",
+    "first": "First country",
+    "second": "Second country",
+    "subregion": "Subregion",
+    "noData": "No country data",
+    "refresh": "Try refreshing the page."
+  },
+  "wishlistPage": {
+    "eyebrow": "Travel wishlist",
+    "title": "Your personal world map.",
+    "copy": "Save destinations, mark places visited, and keep the journey moving.",
+    "saved": "saved countries",
+    "visitedFromList": "visited from list",
+    "worldProgress": "world progress",
+    "empty": "Your wishlist is ready",
+    "emptyCopy": "Start saving countries from Explore or Country Details.",
+    "clearAll": "Clear all",
+    "visited": "Visited",
+    "markVisited": "Mark visited",
+    "clearTitle": "Clear wishlist?",
+    "clearCopy": "This removes every saved country from your local wishlist.",
+    "clearConfirm": "Clear wishlist"
+  },
+  "favoritesPage": {
+    "eyebrow": "Favorite countries",
+    "title": "Your saved highlights.",
+    "copy": "Keep countries you want to revisit quickly while your wishlist stays focused on future travel plans.",
+    "saved": "favorites saved",
+    "progress": "world discovered",
+    "empty": "No favorites yet",
+    "emptyCopy": "Tap the heart on any country card to save it here."
+  },
+  "actions": {
+    "favoriteAdded": "Added to favorites",
+    "favoriteRemoved": "Removed from favorites",
+    "wishlistAdded": "Saved to wishlist",
+    "wishlistRemoved": "Removed from wishlist",
+    "addToWishlist": "Add to wishlist",
+    "openDetails": "Open details"
+  },
+  "welcome": {
+    "title": "Welcome to EarthLens",
+    "copy": "Explore countries, compare nations, save dream destinations, and switch themes or languages anytime.",
+    "button": "Begin journey"
+  },
+  "details": {
+    "officialName": "Official name",
+    "timezones": "Timezones",
+    "continents": "Continents",
+    "unMember": "UN member",
+    "yes": "Yes",
+    "no": "No",
+    "favorite": "Favorite",
+    "favorited": "Favorited",
+    "share": "Share",
+    "copy": "Copy",
+    "weather": "Capital weather",
+    "facts": "Country facts",
+    "symbols": "Symbols",
+    "openMaps": "Open in Google Maps",
+    "borders": "Border countries",
+    "notFound": "Country not found",
+    "unavailable": "Country details are unavailable right now.",
+    "copied": "Country information copied",
+    "linkCopied": "Share link copied",
+    "summaryFallback": "{{country}} is located in {{region}}.",
+    "copyTemplate": "{{country}}: capital {{capital}}, population {{population}}"
+  },
+  "home": {
+    "stats": {
+      "countries": "countries and territories",
+      "continents": "continents to explore",
+      "trips": "dream trips to save"
+    },
+    "floating": {
+      "intelligence": "Live country intelligence",
+      "features": "Weather, maps, culture"
+    },
+    "featured": {
+      "eyebrow": "Featured countries",
+      "title": "Places that make the map feel alive.",
+      "action": "Explore all",
+      "japan": "Precision, neon cities, ancient rituals",
+      "iceland": "Volcanoes, glaciers, northern skies",
+      "brazil": "Rainforests, rhythm, coastal energy"
+    },
+    "facts": {
+      "eyebrow": "World facts",
+      "title": "Small details, global scale.",
+      "items": [
+        "More than 190 sovereign states are recognized around the world.",
+        "Asia is home to most of the world's population.",
+        "Canada has the longest coastline of any country.",
+        "The Pacific Ocean is larger than all of Earth's land combined.",
+        "More than 7,000 languages are spoken worldwide."
+      ]
+    },
+    "why": {
+      "eyebrow": "Why EarthLens",
+      "title": "A richer way to browse the planet.",
+      "exploreTitle": "Explore",
+      "exploreCopy": "Search, filter, and open quick views without losing your place.",
+      "compareTitle": "Compare",
+      "compareCopy": "See population, area, currencies, and languages side by side.",
+      "rememberTitle": "Remember",
+      "rememberCopy": "Favorites and wishlist remain saved on your device."
+    },
+    "testimonials": [
+      "EarthLens makes researching a new destination clear, fast, and enjoyable.",
+      "A beautiful way to discover countries I had never considered visiting."
+    ]
+  },
+  "aboutPage": {
+    "eyebrow": "About EarthLens",
+    "title": "A smarter way to understand places before you go.",
+    "copy": "EarthLens helps travelers, students, families, and curious explorers compare countries, discover essential facts, understand local context, and keep track of destinations that matter to them.",
+    "cards": [
+      {
+        "title": "Plan with clarity",
+        "copy": "Search countries by region, language, currency, population, and travel relevance."
+      },
+      {
+        "title": "Compare confidently",
+        "copy": "Place two countries side by side to understand scale, capitals, timezones, and cultural context."
+      },
+      {
+        "title": "Remember your world",
+        "copy": "Save dream destinations, mark visited places, and build a personal travel wishlist."
+      }
+    ],
+    "helpEyebrow": "How it helps",
+    "helpTitle": "Made for real decisions.",
+    "steps": [
+      "Choose a destination with better context",
+      "Compare countries before studying, moving, or traveling",
+      "Save places that match your goals",
+      "Return anytime to continue your world list"
+    ],
+    "privacyTitle": "Simple, private, and useful",
+    "privacyCopy": "Your favorites and wishlist stay on your device. EarthLens is designed to be fast, calm, and helpful from the first visit."
+  },
+  "notFound": {
+    "eyebrow": "404 · Lost coordinates",
+    "title": "This route drifted off the map.",
+    "copy": "The page you are looking for is not in our atlas, but the rest of the world is still waiting.",
+    "action": "Return home"
+  },
+  "footer": {
+    "tagline": "Discover the World Like Never Before.",
+    "github": "GitHub",
+    "email": "Email"
+  },
+  "offline": "You are offline. Saved preferences still work.",
+  "regions": {
+    "africa": "Africa",
+    "americas": "Americas",
+    "northamerica": "North America",
+    "southamerica": "South America",
+    "asia": "Asia",
+    "europe": "Europe",
+    "oceania": "Oceania",
+    "antarctic": "Antarctica",
+    "antarctica": "Antarctica"
+  },
+  "populationBands": {
+    "small": "Under 1 million",
+    "medium": "1–20 million",
+    "large": "20–100 million",
+    "mega": "Over 100 million"
+  },
+  "sortOptions": {
+    "az": "A–Z",
+    "population": "Population",
+    "area": "Area"
+  },
+  "subregions": {
+    "australiaandnewzealand": "Australia and New Zealand",
+    "caribbean": "Caribbean",
+    "centralamerica": "Central America",
+    "centralasia": "Central Asia",
+    "centraleurope": "Central Europe",
+    "easternafrica": "Eastern Africa",
+    "easternasia": "Eastern Asia",
+    "easterneurope": "Eastern Europe",
+    "melanesia": "Melanesia",
+    "micronesia": "Micronesia",
+    "middleafrica": "Middle Africa",
+    "northamerica": "North America",
+    "northernafrica": "Northern Africa",
+    "northerneurope": "Northern Europe",
+    "polynesia": "Polynesia",
+    "southamerica": "South America",
+    "southeasternasia": "South-Eastern Asia",
+    "southeasteurope": "Southeast Europe",
+    "southernafrica": "Southern Africa",
+    "southernasia": "Southern Asia",
+    "southerneurope": "Southern Europe",
+    "westernafrica": "Western Africa",
+    "westernasia": "Western Asia",
+    "westerneurope": "Western Europe"
+  }
+}

@@ -1,0 +1,27 @@
+.button {
+  align-items: center;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  border: 0;
+  border-radius: 999px;
+  bottom: 1.2rem;
+  box-shadow: var(--shadow-blue);
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  height: 3rem;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  right: 1.2rem;
+  transform: translateY(1rem);
+  transition: 180ms ease;
+  width: 3rem;
+  z-index: 18;
+}
+
+.visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}

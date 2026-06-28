@@ -1,0 +1,139 @@
+.details {
+  min-height: 100vh;
+}
+
+.hero {
+  align-items: end;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  min-height: 72vh;
+  padding: 8rem max(var(--space-page), calc((100vw - var(--container)) / 2 + var(--space-page))) 4rem;
+
+  > div {
+    max-width: 50rem;
+  }
+
+  h1 {
+    color: white;
+    font-size: clamp(3.5rem, 10vw, 7rem);
+    line-height: 0.9;
+    margin: 0.6rem 0 1rem;
+  }
+
+  p {
+    color: rgba(255, 255, 255, 0.86);
+    font-size: 1.15rem;
+    line-height: 1.75;
+  }
+}
+
+.heroActions,
+.stats,
+.content,
+.grid,
+.borders,
+.symbols {
+  display: grid;
+  gap: 1rem;
+}
+
+.heroActions {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.stats {
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: -3rem;
+  position: relative;
+  z-index: 2;
+}
+
+.content {
+  grid-template-columns: minmax(0, 1.25fr) minmax(18rem, 0.75fr);
+  margin-top: 1rem;
+}
+
+.panel {
+  background: var(--surface-glass);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-soft);
+  padding: 1.25rem;
+
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.factList {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(2, 1fr);
+
+  div {
+    background: var(--surface);
+    border-radius: var(--radius-md);
+    padding: 0.9rem;
+  }
+
+  span {
+    color: var(--text-muted);
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 900;
+    margin-bottom: 0.3rem;
+    text-transform: uppercase;
+  }
+}
+
+.symbols {
+  grid-template-columns: 1fr 1fr;
+
+  img {
+    aspect-ratio: 4 / 3;
+    background: white;
+    border-radius: var(--radius-md);
+    object-fit: contain;
+    padding: 0.7rem;
+  }
+}
+
+.mapLink,
+.borders a {
+  align-items: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text-primary);
+  display: inline-flex;
+  font-weight: 900;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+}
+
+.borders {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 820px) {
+  .stats,
+  .content,
+  .factList,
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .symbols {
+    grid-template-columns: 1fr;
+  }
+}

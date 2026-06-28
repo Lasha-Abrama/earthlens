@@ -1,0 +1,17 @@
+.welcome {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  svg {
+    color: var(--color-secondary);
+    font-size: 3rem;
+  }
+
+  p {
+    color: var(--text-secondary);
+    font-size: 1.05rem;
+    max-width: 34rem;
+  }
+}

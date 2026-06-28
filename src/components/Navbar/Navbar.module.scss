@@ -1,0 +1,140 @@
+.header {
+  backdrop-filter: blur(22px);
+  background: color-mix(in srgb, var(--background) 76%, transparent);
+  border-bottom: 1px solid var(--border);
+  left: 0;
+  position: sticky;
+  right: 0;
+  top: 0;
+  z-index: 20;
+}
+
+.nav {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: var(--container);
+  min-height: 4.5rem;
+  padding: 0 var(--space-page);
+}
+
+.logo {
+  align-items: center;
+  color: var(--text-primary);
+  display: inline-flex;
+  font-size: 1.12rem;
+  font-weight: 900;
+  gap: 0.55rem;
+  letter-spacing: 0;
+  text-decoration: none;
+
+  svg {
+    color: var(--color-secondary);
+    font-size: 1.45rem;
+  }
+}
+
+.links {
+  align-items: center;
+  display: flex;
+  gap: 0.25rem;
+
+  a {
+    border-radius: 999px;
+    color: var(--text-secondary);
+    font-size: 0.93rem;
+    font-weight: 800;
+    padding: 0.65rem 0.85rem;
+    text-decoration: none;
+  }
+}
+
+.active {
+  background: var(--surface);
+  color: var(--text-primary) !important;
+  box-shadow: var(--shadow-soft);
+}
+
+.actions {
+  align-items: center;
+  display: flex;
+  gap: 0.45rem;
+}
+
+.iconButton,
+.lang,
+.menu {
+  align-items: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text-primary);
+  cursor: pointer;
+  display: inline-flex;
+  font-weight: 900;
+  height: 2.45rem;
+  justify-content: center;
+  min-width: 2.45rem;
+  position: relative;
+  text-decoration: none;
+}
+
+.iconButton span {
+  background: var(--color-accent);
+  border-radius: 999px;
+  color: white;
+  font-size: 0.68rem;
+  line-height: 1;
+  padding: 0.22rem 0.36rem;
+  position: absolute;
+  right: -0.25rem;
+  top: -0.25rem;
+}
+
+.lang {
+  padding: 0 0.7rem;
+}
+
+.menu {
+  display: none;
+}
+
+@media (max-width: 860px) {
+  .links {
+    background: var(--surface-strong);
+    border: 1px solid var(--border);
+    border-radius: 1.2rem;
+    box-shadow: var(--shadow-soft);
+    display: none;
+    flex-direction: column;
+    left: var(--space-page);
+    padding: 0.7rem;
+    position: absolute;
+    right: var(--space-page);
+    top: 4.9rem;
+
+    a {
+      width: 100%;
+    }
+  }
+
+  .open {
+    display: flex;
+  }
+
+  .menu {
+    display: inline-flex;
+  }
+}
+
+@media (max-width: 480px) {
+  .desktopAction {
+    display: none;
+  }
+
+  .nav {
+    gap: 0.5rem;
+  }
+}

@@ -1,0 +1,15 @@
+export const STORAGE_KEYS = {
+  favorites: 'earthlens:favorites',
+  wishlist: 'earthlens:wishlist',
+  theme: 'earthlens:theme',
+  language: 'earthlens:language',
+  searchHistory: 'earthlens:search-history',
+  recentViews: 'earthlens:recent-views',
+  comparisonHistory: 'earthlens:comparison-history',
+  preferences: 'earthlens:preferences',
+  welcomeSeen: 'earthlens:welcome-seen',
+  session: 'earthlens:session',
+  filters: 'earthlens:filters',
+  lastViewed: 'earthlens:last-viewed',
+  sessionStats: 'earthlens:session-stats',
+};

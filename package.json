@@ -1,0 +1,34 @@
+{
+  "name": "earthlens",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "axios": "^1.7.9",
+    "cldr-localenames-full": "^48.2.0",
+    "cldr-numbers-full": "^48.2.0",
+    "framer-motion": "^12.0.0",
+    "i18next": "^24.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-i18next": "^15.4.0",
+    "react-icons": "^5.4.0",
+    "react-router-dom": "^7.1.0",
+    "react-toastify": "^11.0.0",
+    "sass": "^1.83.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.18.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.18",
+    "vite": "^6.0.7"
+  }
+}

@@ -1,0 +1,95 @@
+.header {
+  max-width: 58rem;
+
+  h1 {
+    font-size: clamp(2.6rem, 7vw, 5.2rem);
+    line-height: 0.98;
+    margin: 0.55rem 0 1rem;
+  }
+
+  p {
+    color: var(--text-secondary);
+  }
+}
+
+.stats,
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.stats {
+  grid-template-columns: repeat(3, 1fr);
+  margin: 2rem 0;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.grid {
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 21rem));
+  justify-content: start;
+
+  article {
+    background: var(--surface-glass);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-soft);
+    overflow: hidden;
+  }
+
+  img {
+    aspect-ratio: 16 / 8.5;
+    display: block;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  h2,
+  p {
+    margin: 0;
+  }
+
+  p {
+    color: var(--text-muted);
+    margin-top: 0.35rem;
+  }
+
+  strong {
+    display: block;
+    margin-top: 0.75rem;
+  }
+
+  article > div {
+    padding: 1rem;
+  }
+}
+
+.actions,
+.confirmActions {
+  display: grid;
+  gap: 0.7rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.confirm {
+  color: var(--text-secondary);
+}
+
+@media (max-width: 760px) {
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  .actions,
+  .confirmActions {
+    grid-template-columns: 1fr;
+  }
+
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

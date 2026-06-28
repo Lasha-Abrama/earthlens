@@ -1,0 +1,10 @@
+.progress {
+  background: linear-gradient(90deg, var(--color-secondary), var(--color-primary), var(--color-accent));
+  height: 3px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transform-origin: 0%;
+  z-index: 60;
+}

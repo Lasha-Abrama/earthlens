@@ -1,0 +1,46 @@
+.overlay {
+  align-items: center;
+  background: rgba(2, 6, 23, 0.62);
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  padding: 1rem;
+  position: fixed;
+  z-index: 40;
+}
+
+.modal {
+  background: var(--surface-strong);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-strong);
+  max-height: min(86vh, 52rem);
+  max-width: 46rem;
+  overflow: auto;
+  padding: 1.2rem;
+  width: 100%;
+
+  header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  header > button {
+    align-items: center;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    color: var(--text-primary);
+    cursor: pointer;
+    display: inline-flex;
+    height: 2.4rem;
+    justify-content: center;
+    width: 2.4rem;
+  }
+}
