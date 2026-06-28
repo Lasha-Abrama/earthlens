@@ -71,6 +71,12 @@ img {
   max-width: 100%;
 }
 
+h1,
+h2,
+h3 {
+  overflow-wrap: anywhere;
+}
+
 .page-shell {
   margin: 0 auto;
   max-width: var(--container);
@@ -87,6 +93,11 @@ img {
   gap: 1rem;
   justify-content: space-between;
   margin-bottom: 1.4rem;
+
+  .eyebrow {
+    display: block;
+    margin-bottom: 0.65rem;
+  }
 
   h2 {
     font-size: clamp(2rem, 5vw, 3.4rem);
@@ -126,6 +137,14 @@ img {
 }
 
 @media (max-width: 720px) {
+  .page-shell {
+    padding-top: 2rem;
+  }
+
+  .section {
+    margin-top: 3.5rem;
+  }
+
   .section-header {
     align-items: start;
     flex-direction: column;

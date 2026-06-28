@@ -65,7 +65,11 @@ const CountryDetails = () => {
     };
   }, [code, addRecentView, t, i18n.language]);
 
-  const heroImage = summary?.originalimage?.source || summary?.thumbnail?.source || FALLBACK_COUNTRY_IMAGES[code?.length % FALLBACK_COUNTRY_IMAGES.length];
+  const heroImage = code === 'GEO' && country?.flags?.svg
+    ? country.flags.svg
+    : summary?.originalimage?.source
+      || summary?.thumbnail?.source
+      || FALLBACK_COUNTRY_IMAGES[code?.length % FALLBACK_COUNTRY_IMAGES.length];
 
   const facts = useMemo(() => {
     if (!country) return [];
@@ -160,7 +164,7 @@ const CountryDetails = () => {
         </div>
 
         {borders.length > 0 && (
-          <section className={styles.panel}>
+          <section className={`${styles.panel} ${styles.borderPanel}`}>
             <h2>{t('details.borders')}</h2>
             <div className={styles.borders}>
               {borders.map((border) => (

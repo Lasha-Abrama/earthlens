@@ -94,6 +94,7 @@
 
   > div:last-child {
     display: flex;
+    flex-wrap: wrap;
     gap: 0.7rem;
   }
 }
@@ -102,5 +103,9 @@
   .cards,
   .developer {
     grid-template-columns: 1fr;
+  }
+
+  .developer > div:last-child > * {
+    flex: 1 1 10rem;
   }
 }

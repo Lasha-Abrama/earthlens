@@ -94,14 +94,19 @@
 }
 
 .lang {
-  padding: 0 0.7rem;
+  padding: 0;
+}
+
+.languageFlag {
+  font-size: 1.2rem;
+  line-height: 1;
 }
 
 .menu {
   display: none;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 980px) {
   .links {
     background: var(--surface-strong);
     border: 1px solid var(--border);
@@ -136,5 +141,14 @@
 
   .nav {
     gap: 0.5rem;
+    padding-inline: 0.8rem;
+  }
+
+  .logo {
+    font-size: 1rem;
+
+    svg {
+      font-size: 1.25rem;
+    }
   }
 }

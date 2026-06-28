@@ -167,6 +167,10 @@
       "rememberTitle": "Remember",
       "rememberCopy": "Favorites and wishlist remain saved on your device."
     },
+    "reviews": {
+      "eyebrow": "Traveler perspectives",
+      "title": "What explorers say."
+    },
     "testimonials": [
       "EarthLens makes researching a new destination clear, fast, and enjoyable.",
       "A beautiful way to discover countries I had never considered visiting."

@@ -34,7 +34,8 @@
 }
 
 :global(html[lang='ka']) .heroCopy h1 {
-  font-size: clamp(3rem, 7vw, 6rem);
+  font-size: clamp(2.9rem, 6.7vw, 5.75rem);
+  max-width: 12ch;
 }
 
 .heroActions,
@@ -156,6 +157,10 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
+.testimonialsSection {
+  margin-top: clamp(2.5rem, 5vw, 4rem);
+}
+
 .testimonials blockquote {
   color: var(--text-secondary);
   font-size: clamp(1.2rem, 3vw, 1.65rem);
@@ -178,5 +183,40 @@
 
   .stats {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 620px) {
+  .hero {
+    gap: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 2.5rem;
+  }
+
+  .heroCopy h1 {
+    font-size: 3rem;
+    max-width: none;
+  }
+
+  :global(html[lang='ka']) .heroCopy h1 {
+    font-size: 2.55rem;
+  }
+
+  .heroActions > * {
+    width: 100%;
+  }
+
+  .heroVisual {
+    min-height: 25rem;
+  }
+
+  .floatOne {
+    left: 0;
+    top: 12%;
+  }
+
+  .floatTwo {
+    bottom: 12%;
+    right: 0;
   }
 }

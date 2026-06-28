@@ -128,7 +128,13 @@ const WhySection = () => {
 const Testimonials = () => {
   const { t } = useTranslation();
   const testimonials = t('home.testimonials', { returnObjects: true });
-  return <section className="page-shell section">
+  return <section className={`page-shell section ${styles.testimonialsSection}`}>
+    <div className="section-header">
+      <div>
+        <span className="eyebrow">{t('home.reviews.eyebrow')}</span>
+        <h2>{t('home.reviews.title')}</h2>
+      </div>
+    </div>
     <div className={styles.testimonials}>
       {testimonials.map((quote) => <blockquote key={quote}>{quote}</blockquote>)}
     </div>

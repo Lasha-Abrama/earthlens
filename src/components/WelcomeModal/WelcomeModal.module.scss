@@ -12,6 +12,12 @@
   p {
     color: var(--text-secondary);
     font-size: 1.05rem;
+    margin: 1.25rem 0 0;
     max-width: 34rem;
+  }
+
+  > button,
+  > a {
+    margin-top: 1rem;
   }
 }

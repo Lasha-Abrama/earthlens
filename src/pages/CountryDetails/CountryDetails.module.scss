@@ -46,7 +46,7 @@
 
 .stats {
   grid-template-columns: repeat(3, 1fr);
-  margin-top: -3rem;
+  margin-top: -2rem;
   position: relative;
   z-index: 2;
 }
@@ -66,6 +66,10 @@
   h2 {
     margin-top: 0;
   }
+}
+
+.borderPanel {
+  margin-top: 1rem;
 }
 
 .factList {
@@ -135,5 +139,48 @@
 
   .symbols {
     grid-template-columns: 1fr;
+  }
+
+  .hero {
+    min-height: auto;
+    padding-bottom: 4.5rem;
+    padding-top: 7rem;
+  }
+
+  .heroActions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    > * {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 520px) {
+  .hero {
+    padding-bottom: 4rem;
+    padding-top: 6rem;
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+  }
+
+  .heroActions {
+    grid-template-columns: 1fr;
+  }
+
+  .stats {
+    margin-top: -1rem;
+  }
+
+  .panel {
+    padding: 1rem;
   }
 }

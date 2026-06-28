@@ -62,7 +62,9 @@ const Navbar = () => {
             title={t('common.switchLanguage')}
             aria-label={t('common.switchLanguage')}
           >
-            {language === 'en' ? 'KA' : 'EN'}
+            <span className={styles.languageFlag} aria-hidden="true">
+              {language === 'en' ? '🇬🇪' : '🇬🇧'}
+            </span>
           </button>
           <button className={styles.menu} onClick={() => setIsOpen((value) => !value)} title={t('common.menu')} aria-label={t('common.menu')}>
             {isOpen ? <FiX /> : <FiMenu />}
