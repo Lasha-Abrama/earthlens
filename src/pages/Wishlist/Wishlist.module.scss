@@ -79,6 +79,10 @@
   color: var(--text-secondary);
 }
 
+.confirmActions {
+  margin-top: 1.25rem;
+}
+
 @media (max-width: 760px) {
   .stats {
     grid-template-columns: 1fr;

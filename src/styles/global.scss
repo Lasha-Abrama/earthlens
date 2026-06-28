@@ -45,6 +45,10 @@ html {
   scroll-behavior: smooth;
 }
 
+html[lang='ka'] h1 {
+  line-height: 1.08 !important;
+}
+
 body {
   background:
     radial-gradient(circle at 12% 10%, rgba(16, 185, 129, 0.24), transparent 28rem),

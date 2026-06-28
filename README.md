@@ -88,12 +88,12 @@ No environment variables or API keys are required.
 
 ## Scripts
 
-| Command | Purpose |
-| --- | --- |
-| `npm run dev` | Start the Vite development server |
-| `npm run build` | Create the optimized production build in `dist/` |
-| `npm run preview` | Preview the production build locally |
-| `npm run lint` | Run ESLint across the project |
+| Command           | Purpose                                          |
+| ----------------- | ------------------------------------------------ |
+| `npm run dev`     | Start the Vite development server                |
+| `npm run build`   | Create the optimized production build in `dist/` |
+| `npm run preview` | Preview the production build locally             |
+| `npm run lint`    | Run ESLint across the project                    |
 
 ## Production Verification
 
@@ -102,29 +102,6 @@ npm run lint
 npm run build
 npm run preview
 ```
-
-Test direct navigation to routes such as `/explore`, `/compare`, and `/country/GEO`. Netlify's redirect configuration serves the React application for every route.
-
-## Deploying To Netlify
-
-### Git-based deployment
-
-1. Push the project to a GitHub, GitLab, or Bitbucket repository.
-2. In Netlify, choose **Add new site** and then **Import an existing project**.
-3. Select the repository.
-4. Netlify reads `netlify.toml` automatically:
-   - Build command: `npm run build`
-   - Publish directory: `dist`
-5. Choose **Deploy site**.
-
-### Manual deployment
-
-1. Run `npm install`.
-2. Run `npm run build`.
-3. In Netlify, open **Deploy manually**.
-4. Drag the generated `dist` folder into the upload area.
-
-The included `netlify.toml` provides React Router fallback routing, long-lived caching for hashed assets, and baseline security headers.
 
 ## Persistence And Privacy
 
@@ -140,10 +117,6 @@ EarthLens includes semantic navigation, descriptive controls, keyboard-accessibl
 - Optional cloud synchronization
 - Offline service-worker caching
 - Country quiz and itinerary-building tools
-
-## License
-
-MIT
 
 ## Developer
 

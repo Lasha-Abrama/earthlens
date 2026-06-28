@@ -23,4 +23,9 @@
     color: var(--text-secondary);
     max-width: 32rem;
   }
+
+  > a,
+  > button {
+    margin-top: 0.75rem;
+  }
 }
