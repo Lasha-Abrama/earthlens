@@ -9,7 +9,7 @@
   },
   "hero": {
     "eyebrow": "Interactive world intelligence",
-    "title": "Discover the World Like Never Before.",
+    "title": "Discover the World Like Never Before",
     "copy": "Explore every country through data, culture, weather, maps, stories, and a personal travel wishlist.",
     "cta": "Start exploring",
     "secondary": "Compare nations"
@@ -45,7 +45,7 @@
   },
   "explore": {
     "eyebrow": "Explore countries",
-    "title": "Filter the entire planet in seconds.",
+    "title": "Filter the entire planet in seconds",
     "copy": "Search by country, capital, continent, language, currency, or population scale.",
     "searchPlaceholder": "Search countries or capitals",
     "sort": "Sort",
@@ -59,7 +59,7 @@
   },
   "compare": {
     "eyebrow": "Compare countries",
-    "title": "Two nations, one clean view.",
+    "title": "Two nations, one clean view",
     "copy": "Choose any two countries and compare their key profile data side by side.",
     "first": "First country",
     "second": "Second country",
@@ -69,7 +69,7 @@
   },
   "wishlistPage": {
     "eyebrow": "Travel wishlist",
-    "title": "Your personal world map.",
+    "title": "Your personal world map",
     "copy": "Save destinations, mark places visited, and keep the journey moving.",
     "saved": "saved countries",
     "visitedFromList": "visited from list",
@@ -85,7 +85,7 @@
   },
   "favoritesPage": {
     "eyebrow": "Favorite countries",
-    "title": "Your saved highlights.",
+    "title": "Your saved highlights",
     "copy": "Keep countries you want to revisit quickly while your wishlist stays focused on future travel plans.",
     "saved": "favorites saved",
     "progress": "world discovered",
@@ -178,7 +178,7 @@
   },
   "aboutPage": {
     "eyebrow": "About EarthLens",
-    "title": "A smarter way to understand places before you go.",
+    "title": "A smarter way to understand places before you go",
     "copy": "EarthLens helps travelers, students, families, and curious explorers compare countries, discover essential facts, understand local context, and keep track of destinations that matter to them.",
     "cards": [
       {
